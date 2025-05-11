@@ -21,7 +21,7 @@ class FileUploader:
       
     def UploadToGofile(self, path: str, fileName: str = None) -> str | None:
 
-        token = "TOKEN"
+        token = "TOKEN" # Note: You can leave this empty to upload manually but file will only exist for few days
 
         if not os.path.isfile(path):
             print("❌ File không tồn tại:", path)
