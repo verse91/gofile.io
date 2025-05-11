@@ -62,7 +62,8 @@ class FileUploader:
                 name = resUpload.json()["data"]["name"]
 
                 print(f"📡 Server: {server}")
-                print("📤 Status code:", "✅" if resUpload.status_code == 200 else "❌")
+                print("✅ Uploaded successfully")
+                # print("📤 Status code:", "✅" if resUpload.status_code == 200 else "❌")
                 # print("📤 Upload response:", resUpload.text)
                 print("🕒 Time:", vietnamTime.strftime('%Y-%m-%d %H:%M:%S') + " (GMT+7)")
                 print("💾 Size:", self.convertBytes(size))
