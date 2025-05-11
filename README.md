@@ -34,7 +34,7 @@ To get started with this project, you need to install the dependencies from the 
 1. Install **UV** and dependencies:
 
    ```bash
-   pip install -r req.txt
+   uv pip install -r req.txt
    ```
 
 2. Run the app with **UV**:
