@@ -82,6 +82,6 @@ class FileUploader:
 
 if __name__ == "__main__":
     uploader = FileUploader()
-    url = uploader.UploadToGofile("text.txt")
+    url = uploader.UploadToGofile("YOUR_FILE_PATH") # Example: text.txt
     if url is not None:
         print("📦 URL:", url)
