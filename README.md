@@ -1,7 +1,11 @@
 
-# gofile.io python uploader
+<div align="center">
+<h1>Python's file uploader</h1>
+<h3>A simple file uploader via <a href="https://gofile.io">gofile.io</a> tool written in Python</h3>
 
----
+![image](https://github.com/user-attachments/assets/524b152d-a1ce-4188-a0bf-7cbea77e7045)
+</div>
+
 
 ## How to Use
 
